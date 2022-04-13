@@ -35,6 +35,7 @@ def createRandomPoints(count,rX, rY):
         #in each itereation generate some random points
         random_x = r.uniform(-rX, rX)
         random_y = r.uniform(-rY, rY)
+        #print(random_x, random_y)
 
         #create a point with rhino3dm
         random_pt = rg.Point3d(random_x, random_y, 0)

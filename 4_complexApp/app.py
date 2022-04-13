@@ -21,7 +21,7 @@ hops = hs.Hops(app)
     ]
 )
 def MyComponent(num1, num2):
-    op = wk.addition(num1, num2)
+    op = wk.multiplication(num1, num2)
     return op
 
 
